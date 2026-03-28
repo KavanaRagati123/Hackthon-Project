@@ -1,0 +1,80 @@
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T15:29:46.522Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T15:29:46.541Z"}
+{"level":"error","message":"Failed to get AI response","method":"POST","path":"/api/chat/message","stack":"Error: Failed to get AI response\n    at getChatResponse (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\services\\gemini.js:57:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\routes\\chat.js:63:24","timestamp":"2026-03-27T15:38:55.784Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T15:40:15.936Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T15:40:15.945Z"}
+{"level":"error","message":"Failed to get AI response","method":"POST","path":"/api/chat/message","stack":"Error: Failed to get AI response\n    at getChatResponse (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\services\\gemini.js:67:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\routes\\chat.js:63:24","timestamp":"2026-03-27T15:41:00.910Z"}
+{"level":"error","message":"Failed to get AI response","method":"POST","path":"/api/chat/message","stack":"Error: Failed to get AI response\n    at getChatResponse (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\services\\gemini.js:67:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\routes\\chat.js:63:24","timestamp":"2026-03-27T15:41:38.781Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T16:20:24.088Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T16:20:24.099Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T16:21:24.013Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T16:21:24.025Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T16:21:40.100Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T16:21:40.110Z"}
+{"level":"warn","message":"Email not configured - skipping email send to aishu@gmail.com","timestamp":"2026-03-27T16:46:09.212Z"}
+{"level":"warn","message":"Email not configured - skipping email send to aishu@gmail.com","timestamp":"2026-03-27T16:46:09.214Z"}
+{"level":"warn","message":"Email not configured - skipping email send to aishu@gmail.com","timestamp":"2026-03-27T16:49:35.920Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T19:23:03.965Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T19:23:03.976Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T19:40:13.610Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T19:40:13.623Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T19:52:47.600Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T19:52:47.613Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T19:52:47.855Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:16:49.352Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T20:16:49.363Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:16:49.880Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:18:43.277Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T20:18:43.287Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:40:50.284Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:41:06.472Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T20:41:06.484Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:48:27.515Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:49:03.285Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:49:34.410Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:50:15.338Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T20:50:15.352Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:55:56.804Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T20:55:56.816Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:59:25.679Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T20:59:25.689Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T20:59:58.791Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T20:59:58.801Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:00:35.186Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T21:00:35.198Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:01:07.962Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T21:01:07.973Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:16:12.840Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T21:16:12.851Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:17:18.619Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T21:17:18.630Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:18:51.569Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:19:03.337Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T21:19:03.348Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:20:59.509Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T21:21:05.598Z"}
+{"level":"error","message":"getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-01.kfjrjck.mongodb.net","method":"POST","path":"/api/auth/login","stack":"MongoServerSelectionError: getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-01.kfjrjck.mongodb.net\n    at Topology.selectServer (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\sdam\\topology.js:327:38)\n    at async tryOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:148:18)\n    at async executeOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async FindCursor._initialize (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:26)\n    at async FindCursor.cursorInit (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:632:27)\n    at async FindCursor.fetchBatch (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:666:13)\n    at async FindCursor.next (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:342:17)\n    at async Collection.findOne (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\collection.js:313:24)\n    at async model.Query._findOne (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongoose\\lib\\query.js:2710:15)\n    at async model.Query.exec (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongoose\\lib\\query.js:4627:63)","timestamp":"2026-03-27T22:00:10.008Z"}
+{"level":"error","message":"getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-01.kfjrjck.mongodb.net","method":"GET","path":"/api/posts","stack":"MongoServerSelectionError: getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-01.kfjrjck.mongodb.net\n    at Topology.selectServer (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\sdam\\topology.js:327:38)\n    at async tryOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:148:18)\n    at async executeOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async FindCursor._initialize (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:26)\n    at async FindCursor.cursorInit (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:632:27)\n    at async FindCursor.fetchBatch (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:666:13)\n    at async FindCursor.next (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:342:17)\n    at async [Symbol.asyncIterator] (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:250:34)\n    at async FindCursor.toArray (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:422:26)\n    at async model.Query._find (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongoose\\lib\\query.js:2430:14)","timestamp":"2026-03-27T22:11:14.535Z"}
+{"level":"error","message":"getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-01.kfjrjck.mongodb.net","method":"GET","path":"/api/appointments","stack":"MongoServerSelectionError: getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-01.kfjrjck.mongodb.net\n    at Topology.selectServer (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\sdam\\topology.js:327:38)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processTimers (node:internal/timers:538:9)\n    at async tryOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:148:18)\n    at async executeOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async FindCursor._initialize (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:26)\n    at async FindCursor.cursorInit (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:632:27)\n    at async FindCursor.fetchBatch (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:666:13)\n    at async FindCursor.next (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:342:17)\n    at async Collection.findOne (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\collection.js:313:24)","timestamp":"2026-03-27T22:11:15.807Z"}
+{"level":"warn","message":"Email not configured - skipping email send to kavana@student.edu","timestamp":"2026-03-27T22:15:49.749Z"}
+{"level":"error","message":"getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-00.kfjrjck.mongodb.net","method":"POST","path":"/api/auth/login","stack":"MongoServerSelectionError: getaddrinfo ENOTFOUND ac-rsp4fuc-shard-00-00.kfjrjck.mongodb.net\n    at Topology.selectServer (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\sdam\\topology.js:327:38)\n    at async tryOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:148:18)\n    at async executeOperation (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\operations\\execute_operation.js:78:16)\n    at async FindCursor._initialize (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\find_cursor.js:62:26)\n    at async FindCursor.cursorInit (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:632:27)\n    at async FindCursor.fetchBatch (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:666:13)\n    at async FindCursor.next (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\cursor\\abstract_cursor.js:342:17)\n    at async Collection.findOne (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongodb\\lib\\collection.js:313:24)\n    at async model.Query._findOne (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongoose\\lib\\query.js:2710:15)\n    at async model.Query.exec (C:\\Users\\acer\\OneDrive\\Desktop\\hackathon projet\\server\\node_modules\\mongoose\\lib\\query.js:4627:63)","timestamp":"2026-03-27T22:51:24.534Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T23:10:47.494Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T23:10:47.503Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T23:24:19.678Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T23:24:19.692Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T23:42:46.421Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T23:42:46.429Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T23:43:02.844Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T23:43:02.853Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-27T23:43:20.629Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-27T23:43:20.638Z"}
+{"level":"warn","message":"Email not configured - skipping email send to counsellor1@test.com","timestamp":"2026-03-27T23:55:21.801Z"}
+{"level":"warn","message":"Email not configured - skipping email send to counsellor1@test.com","timestamp":"2026-03-27T23:55:21.802Z"}
+{"level":"warn","message":"Email not configured - skipping email send to aishu@gmail.com","timestamp":"2026-03-28T00:44:44.619Z"}
+{"level":"warn","message":"Email not configured - skipping email send to aishu@gmail.com","timestamp":"2026-03-28T00:44:44.621Z"}
+{"level":"warn","message":"Email not configured - skipping email send to aishu@gmail.com","timestamp":"2026-03-28T00:45:38.921Z"}
+{"level":"info","message":"✅ Connected to MongoDB","timestamp":"2026-03-28T01:09:58.926Z"}
+{"level":"info","message":"🚀 Server running on port 5000","timestamp":"2026-03-28T01:09:58.937Z"}
+{"level":"warn","message":"Email not configured - skipping email send to keerthi@student.edu","timestamp":"2026-03-28T01:11:34.155Z"}
+{"level":"warn","message":"Email not configured - skipping email send to keerthi@student.edu","timestamp":"2026-03-28T01:11:34.157Z"}
+{"level":"warn","message":"Email not configured - skipping email send to keerthi@student.edu","timestamp":"2026-03-28T01:25:13.183Z"}

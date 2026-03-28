@@ -1,0 +1,286 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-dark-50 text-dark-900 dark:bg-dark-950 dark:text-dark-100 transition-colors duration-500;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.01em;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dark-300/60 dark:bg-dark-700/60 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-dark-400 dark:bg-dark-600;
+  }
+
+  ::selection {
+    @apply bg-primary-200 dark:bg-primary-800 text-primary-900 dark:text-primary-100;
+  }
+}
+
+@layer components {
+
+  /* ═══════════════════════════════════════
+     CARDS — Layered organic shadows
+     ═══════════════════════════════════════ */
+  .glass {
+    @apply bg-white dark:bg-dark-900 border border-dark-200/60 dark:border-dark-800/60;
+  }
+
+  .glass-card {
+    @apply bg-white dark:bg-dark-900 rounded-2xl p-6
+           border border-dark-200/50 dark:border-dark-800/50
+           transition-all duration-300 ease-out;
+    box-shadow:
+      0 1px 2px rgba(0,0,0,0.04),
+      0 4px 8px rgba(0,0,0,0.04),
+      0 8px 24px rgba(0,0,0,0.03);
+  }
+  .dark .glass-card {
+    box-shadow:
+      0 1px 2px rgba(0,0,0,0.2),
+      0 4px 12px rgba(0,0,0,0.15),
+      0 8px 32px rgba(0,0,0,0.1);
+  }
+
+  /* ═══════════════════════════════════════
+     BUTTONS — Liquid press with depth
+     ═══════════════════════════════════════ */
+  .btn-primary {
+    @apply relative overflow-hidden
+           bg-primary-600 hover:bg-primary-700 
+           text-white font-semibold py-3 px-6 rounded-xl
+           transition-all duration-200 ease-out
+           focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:ring-offset-2 dark:focus:ring-offset-dark-900;
+    box-shadow:
+      0 1px 2px rgba(0,0,0,0.08),
+      0 4px 8px rgba(72,101,129,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+  }
+  .btn-primary:hover {
+    box-shadow:
+      0 2px 4px rgba(0,0,0,0.08),
+      0 8px 16px rgba(72,101,129,0.22),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+    transform: translateY(-1px);
+  }
+  .btn-primary:active {
+    transform: translateY(1px);
+    box-shadow:
+      0 1px 2px rgba(0,0,0,0.1),
+      inset 0 2px 4px rgba(0,0,0,0.15);
+  }
+
+  .btn-secondary {
+    @apply relative overflow-hidden
+           bg-mint-500 hover:bg-mint-600
+           text-white font-semibold py-3 px-6 rounded-xl
+           transition-all duration-200 ease-out
+           focus:outline-none focus:ring-2 focus:ring-mint-500/50 focus:ring-offset-2 dark:focus:ring-offset-dark-900;
+    box-shadow:
+      0 1px 2px rgba(0,0,0,0.08),
+      0 4px 8px rgba(81,130,112,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+  }
+  .btn-secondary:hover {
+    box-shadow:
+      0 2px 4px rgba(0,0,0,0.08),
+      0 8px 16px rgba(81,130,112,0.22),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+    transform: translateY(-1px);
+  }
+  .btn-secondary:active {
+    transform: translateY(1px);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+  }
+
+  .btn-coral {
+    @apply relative overflow-hidden
+           bg-coral-500 hover:bg-coral-600
+           text-white font-semibold py-3 px-6 rounded-xl
+           transition-all duration-200 ease-out;
+    box-shadow:
+      0 1px 2px rgba(0,0,0,0.08),
+      0 4px 8px rgba(180,67,69,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+  }
+  .btn-coral:hover {
+    box-shadow:
+      0 2px 4px rgba(0,0,0,0.08),
+      0 8px 16px rgba(180,67,69,0.22),
+      inset 0 1px 0 rgba(255,255,255,0.12);
+    transform: translateY(-1px);
+  }
+  .btn-coral:active {
+    transform: translateY(1px);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+  }
+
+  .btn-ghost {
+    @apply bg-transparent hover:bg-dark-100 dark:hover:bg-dark-800/70 
+           text-dark-700 dark:text-dark-200 
+           font-medium py-2 px-4 rounded-xl 
+           transition-all duration-200;
+  }
+  .btn-ghost:hover {
+    transform: translateY(-1px);
+  }
+  .btn-ghost:active {
+    transform: translateY(0);
+  }
+
+  /* ═══════════════════════════════════════
+     INPUTS — Recessed with glow focus
+     ═══════════════════════════════════════ */
+  .input-field {
+    @apply w-full bg-dark-50 dark:bg-dark-950 
+           border border-dark-200 dark:border-dark-800 
+           rounded-xl px-4 py-3 
+           text-dark-900 dark:text-dark-50 
+           placeholder-dark-400/70
+           transition-all duration-300;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.04);
+  }
+  .input-field:focus {
+    @apply outline-none border-primary-400 dark:border-primary-600;
+    box-shadow:
+      inset 0 2px 4px rgba(0,0,0,0.04),
+      0 0 0 3px rgba(85,127,100,0.15);
+  }
+
+  /* ═══════════════════════════════════════
+     TEXT STYLES
+     ═══════════════════════════════════════ */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 via-primary-500 to-primary-400;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-primary-50 via-dark-50 to-dark-100
+           dark:from-dark-950 dark:via-dark-950 dark:to-primary-950/10;
+  }
+
+  /* ═══════════════════════════════════════
+     CARD INTERACTIONS
+     ═══════════════════════════════════════ */
+  .card-hover {
+    @apply transition-all duration-300 ease-out cursor-pointer;
+  }
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow:
+      0 4px 8px rgba(0,0,0,0.05),
+      0 12px 32px rgba(0,0,0,0.07),
+      0 24px 48px rgba(72,101,129,0.05);
+  }
+  .dark .card-hover:hover {
+    box-shadow:
+      0 4px 8px rgba(0,0,0,0.2),
+      0 12px 32px rgba(0,0,0,0.25);
+  }
+
+  /* ═══════════════════════════════════════
+     UTILITY COMPONENTS
+     ═══════════════════════════════════════ */
+  .skeleton {
+    @apply animate-pulse bg-dark-200 dark:bg-dark-800 rounded-lg;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold tracking-wide;
+  }
+
+  .badge-primary {
+    @apply badge bg-primary-100 text-primary-800 dark:bg-primary-900/40 dark:text-primary-200;
+  }
+
+  .badge-mint {
+    @apply badge bg-mint-100 text-mint-800 dark:bg-mint-900/40 dark:text-mint-200;
+  }
+
+  .badge-coral {
+    @apply badge bg-coral-100 text-coral-800 dark:bg-coral-900/40 dark:text-coral-200;
+  }
+
+  /* ═══════════════════════════════════════
+     ANIMATED BACKGROUND BLOBS
+     ═══════════════════════════════════════ */
+  .blob {
+    @apply absolute rounded-full opacity-30 dark:opacity-15 pointer-events-none;
+    filter: blur(60px);
+  }
+  .blob-primary {
+    @apply blob bg-primary-300 dark:bg-primary-700;
+  }
+  .blob-amber {
+    @apply blob bg-amber-200 dark:bg-amber-800;
+  }
+  .blob-mint {
+    @apply blob bg-mint-200 dark:bg-mint-700;
+  }
+}
+
+/* ═══════════════════════════════════════
+   SPECIAL ANIMATIONS (outside @layer)
+   ═══════════════════════════════════════ */
+
+/* Animated gradient for hero text */
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient 6s ease infinite;
+}
+
+/* Crisis banner */
+.crisis-pulse {
+  animation: pulseSoft 2s ease-in-out infinite;
+  @apply bg-red-500/10 border-red-400/30;
+}
+
+/* Ripple effect on buttons */
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.35);
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+  pointer-events: none;
+}
+
+/* Shimmer loading */
+.shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.08), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Stagger-in utility: apply to children with --delay custom property */
+.stagger-in > * {
+  opacity: 0;
+  animation: slideUp 0.5s ease-out forwards;
+}
+.stagger-in > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger-in > *:nth-child(2) { animation-delay: 0.10s; }
+.stagger-in > *:nth-child(3) { animation-delay: 0.15s; }
+.stagger-in > *:nth-child(4) { animation-delay: 0.20s; }
+.stagger-in > *:nth-child(5) { animation-delay: 0.25s; }
+.stagger-in > *:nth-child(6) { animation-delay: 0.30s; }
+.stagger-in > *:nth-child(7) { animation-delay: 0.35s; }
+.stagger-in > *:nth-child(8) { animation-delay: 0.40s; }
